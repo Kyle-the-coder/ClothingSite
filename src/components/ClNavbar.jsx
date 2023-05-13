@@ -1,9 +1,11 @@
 
 
 const ClNavbar = () => {
-    return(
+    return (
         <div>
-            Hello from navbar
+            <h1 className="text-3xl font-bold text-red-200 underline">
+                Rosa Buck
+            </h1>
         </div>
     )
 }

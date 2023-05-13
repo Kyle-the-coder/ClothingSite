@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import ClNavbar from './components/ClNavbar';
+import LandingPage from './views/LandingPage';
 
 function App() {
   return (
     <div className="App">
+      <ClNavbar/>
       <Routes>
-        <Route path="/" element={<ClNavbar/>}/>
+        <Route path="/" element={<LandingPage/>}/>
       </Routes>
     </div>
   );
