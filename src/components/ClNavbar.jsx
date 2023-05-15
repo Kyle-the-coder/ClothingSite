@@ -16,7 +16,7 @@ const ClNavbar = () => {
                 {navLinks.map((link, i) => {
                     return (
                         <div key={i}>
-                            <h1 className="text-green-500 cursor-pointer">{link.title}</h1>
+                            <h1 className="text-green-600 cursor-pointer">{link.title}</h1>
                         </div>
                     )
                 })}
