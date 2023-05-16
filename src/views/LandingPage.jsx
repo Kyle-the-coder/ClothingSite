@@ -4,8 +4,8 @@ const LandingPage = () => {
     return (
         <div className="overflow-hidden z-[999]">
             <div className="bg-green-600 w-screen h-[1160px] border-black border-b-[4px] flex justify-end relative">
-                <div className="bg-white w-screen h-full rounded-bl-[1250px] rounded-b-[10rem] absolute right-[100px] flex relative">
-                    <div className="absolute top-[200px] left-[200px] z-[10] relative">
+                <div className="bg-white w-screen h-full rounded-bl-[1250px] top-[-15px] rounded-b-[10rem] absolute right-[100px] flex relative">
+                    <div className="absolute top-[215px] left-[200px] z-[10] relative">
 
                         <img src={rbphoto} />
                         <div className="absolute z-[11] top w-full h-content p-3 bg-slate-200 top-[50px] rounded-[3.4rem] left-[580px] border-2 border-red-600">
@@ -18,10 +18,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
             <div>
                 <h1>Rosa Buck circa 2017 </h1>
                 <h1>Rosa Buck circa 2017 </h1>
