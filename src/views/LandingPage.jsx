@@ -1,4 +1,5 @@
 import rbphoto from "../assets/imgs/Subject.png"
+import MyIcon from "../svg/simplesvg";
 
 const LandingPage = () => {
     return (
@@ -20,19 +21,7 @@ const LandingPage = () => {
                 </div>
             </div>
             <div>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
-                <h1>Rosa Buck circa 2017 </h1>
+                <MyIcon/>
             </div>
         </div>
     )
