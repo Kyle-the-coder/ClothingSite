@@ -1,5 +1,6 @@
 import rbphoto from "../assets/imgs/Subject.png"
 import MyIcon from "../svg/simplesvg";
+import RoseIcon from "../svg/roseSvg";
 
 const LandingPage = () => {
     return (
@@ -20,8 +21,11 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="bg-slate-200 w-full h-[1000px]">
                 <MyIcon/>
+            </div>
+            <div>
+                <RoseIcon/>
             </div>
         </div>
     )

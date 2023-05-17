@@ -1,0 +1,27 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.my-icon-circle {
+    animation: rotate 2s linear infinite;
+}
+
+.my-icon-line {
+    animation: scale 1.5s ease-in-out alternate infinite;
+}
