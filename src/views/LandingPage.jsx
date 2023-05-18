@@ -1,6 +1,7 @@
 import rbphoto from "../assets/imgs/Subject.png"
 import MyIcon from "../svg/simplesvg";
 import RoseIcon from "../svg/roseSvg";
+import LeafIcon from "../svg/leafSvg";
 
 const LandingPage = () => {
     return (
@@ -26,6 +27,9 @@ const LandingPage = () => {
             </div>
             <div>
                 <RoseIcon/>
+            </div>
+            <div>
+                <LeafIcon/>
             </div>
         </div>
     )
