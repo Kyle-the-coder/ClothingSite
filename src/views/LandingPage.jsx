@@ -31,6 +31,21 @@ const LandingPage = () => {
             <div>
                 <LeafIcon/>
             </div>
+            <div>
+                keep working
+            </div>
+            <div>
+                keep working
+            </div>
+            <div>
+                keep working
+            </div>
+            <div>
+                keep working
+            </div>
+            <div>
+                keep working
+            </div>
         </div>
     )
 }
