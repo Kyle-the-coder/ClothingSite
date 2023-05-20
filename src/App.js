@@ -7,7 +7,7 @@ import LandingPage from './views/LandingPage';
 function App() {
   return (
     <div className="App">
-      <ClNavbar/>
+      
       <Routes>
         <Route path="/" element={<LandingPage/>}/>
       </Routes>
