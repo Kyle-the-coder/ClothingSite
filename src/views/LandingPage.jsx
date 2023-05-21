@@ -16,6 +16,18 @@ const LandingPage = () => {
             <div className="w-full bg-slate-900 h-300px">
                 <MyIcon/>
             </div>
+            <div>
+                <h1>Keep Going</h1>
+            </div>
+            <div>
+                <h1>Keep Going</h1>
+            </div>
+            <div>
+                <h1>Keep Going</h1>
+            </div>
+            <div>
+                <h1>Keep Going</h1>
+            </div>
         </div>
     )
 }
