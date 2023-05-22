@@ -28,6 +28,18 @@ const LandingPage = () => {
             <div>
                 <h1>Keep Going</h1>
             </div>
+            <div>
+                <h1>Keep Going</h1>
+            </div>
+            <div>
+                <h1>Keep Going</h1>
+            </div>
+            <div>
+                <h1>Keep Going</h1>
+            </div>
+            <div>
+                <h1>Keep Going</h1>
+            </div>
         </div>
     )
 }
