@@ -4,6 +4,7 @@ import RoseIcon from "../svg/roseSvg";
 import LeafIcon from "../svg/leafSvg";
 import rb2 from "../assets/imgs/rb2.jpeg"
 import ClNavbar from "../components/ClNavbar";
+import rblogo from "../assets/imgs/rblogo.jpeg"
 
 const LandingPage = () => {
     return (
@@ -26,7 +27,8 @@ const LandingPage = () => {
             </div>
 
             <div>
-                <LeafIcon/>
+                <MyIcon/>
+                <img src={rblogo}></img>
             </div>
         </div>
     )
