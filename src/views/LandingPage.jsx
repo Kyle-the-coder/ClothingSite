@@ -5,6 +5,7 @@ import LeafIcon from "../svg/leafSvg";
 import rb2 from "../assets/imgs/rb2.jpeg"
 import ClNavbar from "../components/ClNavbar";
 import rblogo from "../assets/imgs/rblogo.jpeg"
+import TShirtIcon from "../svg/tshirtSvg";
 
 const LandingPage = () => {
     return (
@@ -29,6 +30,9 @@ const LandingPage = () => {
             <div>
                 <MyIcon/>
                 <img src={rblogo}></img>
+            </div>
+            <div>
+                <TShirtIcon/>
             </div>
         </div>
     )
