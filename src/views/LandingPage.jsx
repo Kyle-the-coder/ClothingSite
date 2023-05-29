@@ -6,7 +6,7 @@ import rb2 from "../assets/imgs/rb2.jpeg"
 import ClNavbar from "../components/ClNavbar";
 import rblogo from "../assets/imgs/rblogo.jpeg"
 import TShirtIcon from "../svg/tshirtSvg";
-
+import CircleCheckIcon from "../svg/newSvg";
 const LandingPage = () => {
     return (
         <div className="w-full">
@@ -33,6 +33,10 @@ const LandingPage = () => {
             </div>
             <div>
                 <TShirtIcon/>
+            </div>
+
+            <div>
+                <CircleCheckIcon/>
             </div>
         </div>
     )
