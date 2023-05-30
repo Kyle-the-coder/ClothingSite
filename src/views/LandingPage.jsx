@@ -7,6 +7,7 @@ import ClNavbar from "../components/ClNavbar";
 import rblogo from "../assets/imgs/rblogo.jpeg"
 import TShirtIcon from "../svg/tshirtSvg";
 import CircleCheckIcon from "../svg/newSvg";
+import FlowerIcon from "../svg/flowerSvg";
 const LandingPage = () => {
     return (
         <div className="w-full">
@@ -37,6 +38,10 @@ const LandingPage = () => {
 
             <div>
                 <CircleCheckIcon/>
+            </div>
+
+            <div>
+                <FlowerIcon/>
             </div>
         </div>
     )
