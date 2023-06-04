@@ -9,6 +9,7 @@ import TShirtIcon from "../svg/tshirtSvg";
 import CircleCheckIcon from "../svg/newSvg";
 import FlowerIcon from "../svg/flowerSvg";
 import SquareIcon from "../svg/squareSvg";
+import DiamondIcon from "../svg/diamondSvg";
 const LandingPage = () => {
     return (
         <div className="w-full">
@@ -47,6 +48,9 @@ const LandingPage = () => {
             
             <div>
                 <SquareIcon/>
+            </div>
+            <div>
+                <DiamondIcon/>
             </div>
         </div>
     )
