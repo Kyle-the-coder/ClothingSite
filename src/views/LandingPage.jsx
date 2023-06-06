@@ -34,13 +34,7 @@ const LandingPage = () => {
                 <MyIcon/>
                 <img src={rblogo}></img>
             </div>
-            <div>
-                <TShirtIcon/>
-            </div>
-
-            <div>
-                <CircleCheckIcon/>
-            </div>
+            
 
             <div>
                 <FlowerIcon/>
