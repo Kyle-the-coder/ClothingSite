@@ -19,28 +19,19 @@ const LandingPage = () => {
             </div>
 
             <div className="w-full bg-slate-900 h-300px">
-                <MyIcon/>
+                <MyIcon />
             </div>
-            
+
             <div>
                 <h1>Keep Going</h1>
             </div>
 
             <div>
-                <RoseIcon/>
+                <RoseIcon />
             </div>
 
-            <div>
-                <MyIcon/>
-                <img src={rblogo}></img>
-            </div>
-            
 
-            <div>
-                <FlowerIcon/>
-            </div>
-            
-            
+
         </div>
     )
 }
