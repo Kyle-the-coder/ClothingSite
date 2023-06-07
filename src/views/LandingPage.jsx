@@ -40,12 +40,7 @@ const LandingPage = () => {
                 <FlowerIcon/>
             </div>
             
-            <div>
-                <SquareIcon/>
-            </div>
-            <div>
-                <DiamondIcon/>
-            </div>
+            
         </div>
     )
 }
