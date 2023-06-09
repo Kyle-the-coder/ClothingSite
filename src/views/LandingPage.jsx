@@ -4,13 +4,25 @@ import RoseIcon from "../svg/roseSvg";
 import LeafIcon from "../svg/leafSvg";
 import rb2 from "../assets/imgs/rb2.jpeg"
 import ClNavbar from "../components/ClNavbar";
-import rblogo from "../assets/imgs/rblogo.jpeg"
-import TShirtIcon from "../svg/tshirtSvg";
-import CircleCheckIcon from "../svg/newSvg";
-import FlowerIcon from "../svg/flowerSvg";
-import SquareIcon from "../svg/squareSvg";
-import DiamondIcon from "../svg/diamondSvg";
+import { useEffect } from "react";
+
+import anime from 'animejs';
+
 const LandingPage = () => {
+
+    useEffect(() => {
+        const element = document.getElementById("myElement");
+
+        anime({
+            targets: element,
+            translateX: 250,
+            rotate: '1turn',
+            backgroundColor: '#FFF',
+            duration: 1000,
+            easing: 'easeInOutQuad',
+        });
+    }, []);
+
     return (
         <div className="w-full">
             <div className="w-full flex h-content bg-slate-200">
@@ -24,10 +36,13 @@ const LandingPage = () => {
 
             <div>
                 <h1>Keep Going</h1>
+
+                <div id="myElement">Hello, Anime.js!</div>
+
             </div>
 
             <div>
-                <RoseIcon />
+                <RoseIcon id="ok" />
             </div>
 
 
